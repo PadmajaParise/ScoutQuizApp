@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">    
+    <title>Scouts Quiz App</title>
+    <link rel="shortcut icon" href="#">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="topRow">
+        <div class="quizArea">
+          <h1>Boy Scouts Quiz</h1>    
+          <div class="questions-score-count"></div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" aria-live="assertive">
+      <fieldset>
+        <div class="topRow">
+          <div class="quizArea">
+            <legend>Interactive quiz</legend>
+            <p>The Boy Scouts of America (BSA) (colloquially, the Boy Scouts) is the largest scouting organization and one of the largest youth organizations in the United States, with about 2.3 million youth participants and about one million adult volunteers. This quiz is to analyze your basic knowledge about Boy Scouts of America.</p>
+          </div>
+        </div>
+        <div class="topRow">
+          <div class="quizArea">
+            <button type="button" id="start"> Begin Quiz ...</button>
+          </div>
+        </div>
+      </fieldset>
+    </main>
+    <br><br><img src= "images/boy-scout-law.png" alt= "Boy Scouts Law" class="center" width="460" height="345">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="questionDatabase.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
